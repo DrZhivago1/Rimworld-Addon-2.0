@@ -1,6 +1,8 @@
 # Rimworld++ Addon 2.0
 Past versions and changelog for the 2.0 Addon.
 
+#### April , 2017 - Version 1.1
++    Fixed inability to smelt Neolithic Weaponry
 
 #### April 18, 2017 - Version 1.0
 +    Mod published on Steam
