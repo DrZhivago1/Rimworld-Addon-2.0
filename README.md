@@ -15,6 +15,6 @@ Past versions and changelog for the 2.0 Addon.
 +    Added/changed defs to various buildings (portable stove, rimfridges, power generators, mostly fueled things...)
 +    Added missing wool resources and recipes
 +    Changed MRE functioning, a bit more difficult to produce if starting as a tribe
-+    Altered extended storage so nothing is pre-marked for storage when items are built
++    Altered "Extended Storage" so nothing is pre-marked for storage when items are built
 +    Added advanced intelligence to cats from CK Animals
 +    Allowed firepit and torch sconce to use extended woodworking logs for fuel
