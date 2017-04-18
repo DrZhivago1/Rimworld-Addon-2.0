@@ -1,0 +1,500 @@
+﻿<RecipeDefs>
+
+<!-- Small Bone Repairs -->
+
+	<RecipeDef ParentName="SurgerySimple">
+		<defName>ReplaceMissingFinger</defName>
+		<label>replace missing finger</label>
+		<description>Replace a missing finger.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>replacing finger</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<exceptedThingDefs>
+				<li>aloe</li>
+				<li>Healthdrink</li>
+			</exceptedThingDefs>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftHandPinky</li>
+			<li>LeftHandRingFinger</li>
+			<li>LeftHandMiddleFinger</li>
+			<li>LeftHandIndexFinger</li>
+			<li>LeftHandThumb</li>
+			<li>RightHandPinky</li>
+			<li>RightHandRingFinger</li>
+			<li>RightHandMiddleFinger</li>
+			<li>RightHandIndexFinger</li>
+			<li>RightHandThumb</li>  
+		</appliedOnFixedBodyParts>
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgerySimple">
+		<defName>ReplaceMissingToe</defName>
+		<label>replace missing toe</label>
+		<description>Replace a missing toe.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Replacing toe</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<exceptedThingDefs>
+				<li>aloe</li>
+				<li>Healthdrink</li>
+			</exceptedThingDefs>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftFootLittleToe</li>
+			<li>LeftFootFourthToe</li>
+			<li>LeftFootMiddleToe</li>
+			<li>LeftFootSecondToe</li>
+			<li>LeftFootBigToe</li>
+			<li>RightFootLittleToe</li>
+			<li>RightFootFourthToe</li>
+			<li>RightFootMiddleToe</li>
+			<li>RightFootSecondToe</li>
+			<li>RightFootBigToe</li>  
+		</appliedOnFixedBodyParts>
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>
+	
+  <!-- Sedate -->
+  
+	<RecipeDef ParentName="SurgerySimple">
+		<defName>InjectMedicine</defName>
+		<label>Sedate (2 med)</label>
+		<description>Anesthetize patient to immobilize and recover faster.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Sedating</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<workAmount>2000</workAmount>
+		<ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+				<li>aloe</li>
+				<li>Bandagekit</li>
+				<li>Healthdrink</li>
+			</exceptedThingDefs>
+  </fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+    </appliedOnFixedBodyParts>
+		<addsHediff>AnestheticInjected</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryFleshAnimal">
+		<defName>InjectMedicineAnimal</defName>
+		<label>Sedate (2 med)</label>
+		<description>Anesthetize animal to immobilize and recover faster.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Sedating</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<workAmount>2000</workAmount>
+		<ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+				<li>aloe</li>
+				<li>Bandagekit</li>
+				<li>Healthdrink</li>
+			</exceptedThingDefs>
+  </fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Body</li>
+			<li>Shell</li>
+    </appliedOnFixedBodyParts>
+		<addsHediff>AnestheticInjected</addsHediff>
+		<recipeUsers>
+			<li>Alpaca</li>
+			<li>Alphabeaver</li>
+			<li>Boomalope</li>
+			<li>Boomrat</li>
+			<li>Capybara</li>
+			<li>Caribou</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cobra</li>
+			<li>Cougar</li>
+			<li>Cow</li>
+			<li>Deer</li>
+			<li>Dromedary</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Emu</li>
+			<li>FoxArctic</li>
+			<li>FoxFennec</li>
+			<li>FoxRed</li>
+			<li>Gazelle</li>
+			<li>GrizzlyBear</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Ibex</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Megascarab</li>
+			<li>Megasloth</li>
+			<li>Megaspider</li>
+			<li>Monkey</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Pig</li>
+			<li>PolarBear</li>
+			<li>Raccoon</li>
+			<li>Rat</li>
+			<li>Rhinoceros</li>
+			<li>Snowhare</li>
+			<li>Spelopede</li>
+			<li>Squirrel</li>
+			<li>Thrumbo</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WildBoar</li>
+			<li>WolfArctic</li>
+			<li>WolfTimber</li>
+			<li>YorkshireTerrier</li>
+			<!-- CK Animals -->
+			<li>CK_Tiger</li>
+			<li>CK_WhiteTiger</li>
+			<li>CK_SnowLeopard</li>
+			<li>CK_Jaguar</li>
+			<li>CK_Peafowl</li>
+			<li>CK_Junglefowl</li>
+			<li>CK_KomodoDragon</li>
+			<li>CK_Tapir</li>
+			<li>CK_Okapi</li>
+			<!-- Rimstarve Animals -->
+			<li>Beefalo</li>
+			<li>Hound</li>
+			<li>Rabbit</li>
+			<li>VoltGoat</li>
+			<!-- Legacy Ark Animals -->
+			<li>AngoraRabbit</li>
+			<li>Llama</li>
+			<li>SilkieChicken</li>
+			<li>ValleyQuail</li>
+			<li>MerinoSheep</li>
+			<li>HighlandCow</li>
+			<!-- ForestFey Animals -->
+			<li>GermanShepherd</li>
+			<li>SmilodonPop</li>
+			<!-- Taiga Creatures Animals -->
+			<li>Blackbear</li>
+			<li>Fishercat</li>
+			<li>Horse</li>
+			<li>WoolyHorse</li>
+			<li>Jackalope</li>
+			<li>SnowJackalope</li>
+			<li>Ermine</li>
+			<li>Megabadger</li>
+			<li>Chipmunk</li>
+			<li>WoolyRhino</li>
+			<li>Ptarmigan</li>
+			<!-- CPBeasties Animals -->
+			<li>Panda</li>
+			<li>Otter</li>
+			<li>Penguin</li>
+			<li>Kiwi</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<!-- Large Bone Repairs -->
+
+	<RecipeDef ParentName="SurgeryBone">
+		<defName>RepairHumerus</defName>
+		<label>repair humerus</label>
+		<description>Repair humerus</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Repairing humerus</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<workAmount>4000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftHumerus</li>
+			<li>RightHumerus</li>
+		</appliedOnFixedBodyParts>
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryBone">
+		<defName>RepairRadius</defName>
+		<label>repair radius</label>
+		<description>Repair radius</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Repairing radius</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<workAmount>4000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftRadius</li>
+			<li>RightRadius</li>
+		</appliedOnFixedBodyParts> 
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>	
+
+	<RecipeDef ParentName="SurgeryBone">
+		<defName>RepairFemur</defName>
+		<label>repair femur</label>
+		<description>Repair femur</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Repairing femur</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftFemur</li>
+			<li>RightFemur</li>
+		</appliedOnFixedBodyParts>  
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryBone">
+		<defName>RepairTibia</defName>
+		<label>repair tibia</label>
+		<description>Repair tibia</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Repairing tibia</jobString>
+		<surgerySuccessChanceFactor>1.42</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<workAmount>6000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>LeftTibia</li>
+			<li>RightTibia</li>
+		</appliedOnFixedBodyParts>   
+		<researchPrerequisite>SimpleProsthetics</researchPrerequisite>
+	</RecipeDef>
+	
+</RecipeDefs>

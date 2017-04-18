@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AnestheticInjected</defName>
+    <label>anesthetic</label>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+	    <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.42857</severityPerDay><!-- matches original duration of 2.33 days -->
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+            <li>
+               <capacity>BloodFiltration</capacity>
+               <offset>0.3</offset>
+            </li>
+            <li>
+               <capacity>BloodPumping</capacity>
+               <offset>0.3</offset>
+            </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

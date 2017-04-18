@@ -1,0 +1,9 @@
+﻿<ModMetaData>
+
+	<name>Rimworld++ Addon 2.0</name>
+	<author>Qwynn | Dr Zhivago</author>
+	<url></url>
+	<targetVersion>0.16.1393</targetVersion>
+	<description>Applies various fixes and tweaks to some of the mods in the Rimworld++ 2.0 collection. This is not a standalone mod, and you will encounter errors on load up if you enable this without the entire Rimworld++ 2.0 collection. (Version 1.0)</description>
+
+</ModMetaData>
