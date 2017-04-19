@@ -22,5 +22,4 @@ Past versions and changelog for the 2.0 Addon.
 +    Allowed firepit and torch sconce to use extended woodworking logs for fuel
 
 
-License:
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
