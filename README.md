@@ -21,7 +21,8 @@ Past versions and changelog for the 2.0 Addon.
 +    Added advanced intelligence to cats from CK Animals
 +    Allowed firepit and torch sconce to use extended woodworking logs for fuel
 
+## [Get it on Steam](http://steamcommunity.com/sharedfiles/filedetails/?id=908065093)
 
-## [Qwynn's Original  Rimworld++ Addon](https://github.com/Qwynn/PlusPlusAddon)
+## [Qwynn's Original Rimworld++ Addon](https://github.com/Qwynn/PlusPlusAddon)
 
 ## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
