@@ -20,3 +20,7 @@ Past versions and changelog for the 2.0 Addon.
 +    Altered "Extended Storage" so nothing is pre-marked for storage when items are built
 +    Added advanced intelligence to cats from CK Animals
 +    Allowed firepit and torch sconce to use extended woodworking logs for fuel
+
+
+License:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
