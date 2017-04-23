@@ -1,8 +1,9 @@
 # Rimworld++ Addon 2.0
 Past versions and changelog for the 2.0 Addon.
 
-#### April , 2017 - Version 1.1
+#### April 23, 2017 - Version 1.1
 +    Fixed inability to smelt Neolithic Weaponry
++    Changed "megasloth wool cloth" into "megatherium wool cloth" to match collection name defs
 
 #### April 18, 2017 - Version 1.0
 +    Mod published on Steam
