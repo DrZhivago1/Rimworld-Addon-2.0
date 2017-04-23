@@ -30,7 +30,7 @@
 
 	<ThingDef ParentName="WoolClothBase">
 		<defName>WoolClothMegasloth</defName>
-		<label>megasloth wool cloth</label>
+		<label>megatherium wool cloth</label>
 		<description>Wool that has been woven on a loom into a thick, warm cloth.</description>
 		<graphicData>
 			<texPath>Things/WoolCloth</texPath>
